@@ -34,13 +34,15 @@
             this.txtPassWord = new System.Windows.Forms.Label();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.Location = new System.Drawing.Point(157, 175);
+            this.btnDangNhap.Location = new System.Drawing.Point(211, 300);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(75, 23);
+            this.btnDangNhap.Size = new System.Drawing.Size(100, 28);
             this.btnDangNhap.TabIndex = 0;
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.UseVisualStyleBackColor = true;
@@ -48,9 +50,10 @@
             // 
             // btnDangKy
             // 
-            this.btnDangKy.Location = new System.Drawing.Point(262, 175);
+            this.btnDangKy.Location = new System.Drawing.Point(351, 300);
+            this.btnDangKy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDangKy.Name = "btnDangKy";
-            this.btnDangKy.Size = new System.Drawing.Size(75, 23);
+            this.btnDangKy.Size = new System.Drawing.Size(100, 28);
             this.btnDangKy.TabIndex = 1;
             this.btnDangKy.Text = "Thoát";
             this.btnDangKy.UseVisualStyleBackColor = true;
@@ -59,46 +62,64 @@
             // txtuserr
             // 
             this.txtuserr.AutoSize = true;
-            this.txtuserr.Location = new System.Drawing.Point(57, 56);
+            this.txtuserr.Location = new System.Drawing.Point(78, 154);
+            this.txtuserr.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtuserr.Name = "txtuserr";
-            this.txtuserr.Size = new System.Drawing.Size(57, 13);
+            this.txtuserr.Size = new System.Drawing.Size(75, 17);
             this.txtuserr.TabIndex = 2;
             this.txtuserr.Text = "UserName";
             // 
             // txtPassWord
             // 
             this.txtPassWord.AutoSize = true;
-            this.txtPassWord.Location = new System.Drawing.Point(56, 101);
+            this.txtPassWord.Location = new System.Drawing.Point(77, 209);
+            this.txtPassWord.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtPassWord.Name = "txtPassWord";
-            this.txtPassWord.Size = new System.Drawing.Size(56, 13);
+            this.txtPassWord.Size = new System.Drawing.Size(73, 17);
             this.txtPassWord.TabIndex = 3;
             this.txtPassWord.Text = "PassWord";
             // 
             // txtUser
             // 
-            this.txtUser.Location = new System.Drawing.Point(157, 56);
+            this.txtUser.Location = new System.Drawing.Point(211, 154);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(180, 20);
+            this.txtUser.Size = new System.Drawing.Size(239, 22);
             this.txtUser.TabIndex = 4;
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(157, 101);
+            this.txtPass.Location = new System.Drawing.Point(211, 209);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(180, 20);
+            this.txtPass.Size = new System.Drawing.Size(239, 22);
             this.txtPass.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.Control;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.Location = new System.Drawing.Point(108, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(385, 69);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "ĐĂNG NHẬP";
             // 
             // DangNhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(473, 296);
+            this.ClientSize = new System.Drawing.Size(631, 364);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.txtPassWord);
             this.Controls.Add(this.txtuserr);
             this.Controls.Add(this.btnDangKy);
             this.Controls.Add(this.btnDangNhap);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "DangNhap";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -114,6 +135,7 @@
         private System.Windows.Forms.Label txtPassWord;
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.Label label1;
     }
 }
 
