@@ -35,12 +35,13 @@
             this.txtUser = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // btnDangNhap
             // 
             this.btnDangNhap.Location = new System.Drawing.Point(211, 300);
-            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(100, 28);
             this.btnDangNhap.TabIndex = 0;
@@ -51,7 +52,7 @@
             // btnDangKy
             // 
             this.btnDangKy.Location = new System.Drawing.Point(351, 300);
-            this.btnDangKy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDangKy.Margin = new System.Windows.Forms.Padding(4);
             this.btnDangKy.Name = "btnDangKy";
             this.btnDangKy.Size = new System.Drawing.Size(100, 28);
             this.btnDangKy.TabIndex = 1;
@@ -82,7 +83,7 @@
             // txtUser
             // 
             this.txtUser.Location = new System.Drawing.Point(211, 154);
-            this.txtUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(4);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(239, 22);
             this.txtUser.TabIndex = 4;
@@ -90,7 +91,7 @@
             // txtPass
             // 
             this.txtPass.Location = new System.Drawing.Point(211, 209);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(239, 22);
             this.txtPass.TabIndex = 5;
@@ -107,11 +108,22 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "ĐĂNG NHẬP";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(211, 255);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(105, 17);
+            this.linkLabel1.TabIndex = 7;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Quên mật khẩu";
+            // 
             // DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(631, 364);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUser);
@@ -119,7 +131,7 @@
             this.Controls.Add(this.txtuserr);
             this.Controls.Add(this.btnDangKy);
             this.Controls.Add(this.btnDangNhap);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DangNhap";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -136,6 +148,7 @@
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
